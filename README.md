@@ -36,5 +36,6 @@ O desafio é um projeto que visa facilitar o controle de vendas.
 ## :memo: Observações
 
 É necessário ter o mongo instalado e configurado para o backend funcionar corretamente.
+Pensei em implementar função para adicionar vendas também, mas por não fazer parte do desafio achei melhor não faze-lo, sendo assim é necessário persistir os dados numa database que deverá se chamar 'sales'.
 
 Para rodar a aplicação utilizar o comando 'npm i' nos diretórios 'backend' e no 'frontend' escolhido, após concluída a instalação dos pacotes, utilizar os comandos 'npm start' nos diretórios 'backend' e no 'frontend' escolhido, a aplicação iniciará automaticamente.
