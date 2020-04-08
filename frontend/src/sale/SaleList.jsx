@@ -22,8 +22,8 @@ const saleList = props => {
             <thead>
                 <tr>
                     <th>Item vendido</th>
-                    <th>Forma da venda</th>
-                    <th className='tableTime'>Data da venda</th>
+                    <th className='saleCol'>Forma da venda</th>
+                    <th className='saleCol'>Data da venda</th>
                 </tr>
             </thead>
             <tbody>
