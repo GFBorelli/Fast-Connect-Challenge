@@ -37,6 +37,4 @@ O desafio é um projeto que visa facilitar o controle de vendas.
 
 É necessário ter o mongo instalado e configurado para o backend funcionar corretamente.
 
-Aplicação desenvolvida com 2 frontends, um com redux (diretório frontend) e outro sem redux (diretório frontend-without-redux), após escolher o tipo de frontend desejado seguir os passos abaixo:
-
 Para rodar a aplicação utilizar o comando 'npm i' nos diretórios 'backend' e no 'frontend' escolhido, após concluída a instalação dos pacotes, utilizar os comandos 'npm start' nos diretórios 'backend' e no 'frontend' escolhido, a aplicação iniciará automaticamente.
