@@ -11,6 +11,7 @@ const saleList = props => {
         return list.map(sale => (
             <tr key={sale._id}>
                 <td>{sale.description}</td>
+                <td>{sale.saleWay}</td>
                 <td>{moment(sale.createdAt).format('D-MM-YY, h:mm:ss')}</td>
             </tr>
         ))
@@ -21,6 +22,7 @@ const saleList = props => {
             <thead>
                 <tr>
                     <th>Item vendido</th>
+                    <th>Forma da venda</th>
                     <th className='tableTime'>Data da venda</th>
                 </tr>
             </thead>

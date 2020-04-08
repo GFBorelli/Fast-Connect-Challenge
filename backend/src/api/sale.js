@@ -3,7 +3,7 @@ const mongoose = restful.mongoose
 
 const saleSchema = new mongoose.Schema({
     description: { type: String, required: true },
-    done: { type: Boolean, required: true, default: false },
+    saleWay: { type: String, required: true },
     createdAt: { type: Date, required: true, default: Date.now }
 })
 
