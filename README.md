@@ -31,7 +31,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-O Todo App é um projeto que visa facilitar o controle de tarefas e a gestão de tempo.
+O desafio é um projeto que visa facilitar o controle de vendas.
 
 ## :memo: Observações
 
