@@ -10,10 +10,11 @@ import { Provider } from 'react-redux'
 import { createStore, applyMiddleware } from 'redux';
 
 import thunk from 'redux-thunk'
+import multi from 'redux-multi'
 
 import { composeWithDevTools } from 'redux-devtools-extension';
 
-const store = createStore(reducers, composeWithDevTools(applyMiddleware(thunk)));
+const store = createStore(reducers, composeWithDevTools(applyMiddleware(thunk, multi)));
 
 ReactDOM.render(
     <React.StrictMode>

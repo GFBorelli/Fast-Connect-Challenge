@@ -1,10 +1,11 @@
 import React from 'react'
 import moment from 'moment'
 
+import { connect } from 'react-redux'
 
 import { Table } from 'react-bootstrap'
 
-const saleList = props => {
+const SaleList = props => {
 
     const renderRows = () => {
         const list = props.list || []
@@ -33,4 +34,6 @@ const saleList = props => {
     )
 }
 
-export default saleList
+const mapStateToProps = state => ({ list: state.sale.list })
+
+export default connect(mapStateToProps)(SaleList)
