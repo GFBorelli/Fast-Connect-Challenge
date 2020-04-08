@@ -1,0 +1,7 @@
+.pageHeader > h2 > small{
+  color: gray;
+}
+
+.tableTime{
+  width: 160px;
+}
