@@ -10,21 +10,10 @@ import { FaSearch, FaTimes } from 'react-icons/fa'
 class SaleForm extends Component {
     constructor(props) {
         super(props)
-
-        this.shortCuts = this.shortCuts.bind(this)
     }
 
     componentDidMount() {
         this.props.search()
-    }
-
-    shortCuts = (e) => {
-        const { search, clear } = this.props
-        if (e.key === 'Enter') {
-            search()
-        } else if (e.key === 'Escape') {
-            clear()
-        }
     }
 
     render() {
