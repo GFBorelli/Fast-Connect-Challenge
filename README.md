@@ -41,6 +41,7 @@ Algumas coisas não ficaram como eu desejava, o Redux-Form está apresentando um
 ## 📚 Instruções
 
 É necessário ter o mongo instalado e configurado para o backend funcionar corretamente.
-Pensei em implementar função para adicionar vendas também, mas por não fazer parte do desafio achei melhor não faze-lo, sendo assim é necessário incluir uma coleção de exemplos que está neste repositório(exemploMongo.json) ou caso deseje, persistir os dados numa coleção do mongo que deverá se chamar 'sales'.
+
+Pensei em implementar função para adicionar vendas também, mas por não fazer parte do desafio achei melhor não faze-lo, sendo assim é necessário incluir uma coleção de exemplos que está neste repositório(exemploMongo.json) ou caso deseje, persistir os dados em um banco do mongo chamado 'sales' numa coleção do mongo que deverá se chamar 'sales'.
 
 Para rodar a aplicação utilizar o comando 'npm i' nos diretórios 'backend' e no 'frontend', após concluída a instalação dos pacotes, utilizar os comandos 'npm start' nos diretórios 'backend' e no 'frontend', a aplicação iniciará automaticamente.
