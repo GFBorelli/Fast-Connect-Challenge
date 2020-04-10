@@ -1,0 +1,3 @@
+{"_id":{"$oid":"5e8df2ed47f3c41850ce48ef"},"description":"Suspensão","saleWay":"MercadoLivre","createdAt":{"$date":{"$numberLong":"1586361069609"}},"__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5e8df30247f3c41850ce48f0"},"description":"Filtros de ar","saleWay":"Olx","createdAt":{"$date":{"$numberLong":"1586361090672"}},"__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5e8df31d47f3c41850ce48f1"},"description":"4x Pneus 165R14","saleWay":"Balcão","createdAt":{"$date":{"$numberLong":"1586361117996"}},"__v":{"$numberInt":"0"}}

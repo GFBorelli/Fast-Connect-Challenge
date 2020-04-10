@@ -2,7 +2,7 @@ import 'bootstrap/dist/css/bootstrap.css';
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import AuthOrApp from './main/AuthOrApp';
 import * as serviceWorker from './serviceWorker';
 
 import reducers from './reducers/reducers'
@@ -19,7 +19,7 @@ const store = createStore(reducers, composeWithDevTools(applyMiddleware(thunk, m
 ReactDOM.render(
     <React.StrictMode>
         <Provider store={store}>
-            <App />
+            <AuthOrApp />
         </Provider>
     </React.StrictMode>,
     document.getElementById('root')

@@ -1,4 +1,6 @@
 import React from 'react';
+import { HashRouter } from 'react-router-dom'
+
 import './App.css';
 import { Container } from 'react-bootstrap'
 
@@ -7,10 +9,12 @@ import Routes from './routes'
 
 function App() {
   return (
-    <Container>
-      <Menu />
-      <Routes />
-    </Container>
+    <HashRouter>
+      <Container>
+        <Menu />
+        <Routes />
+      </Container>
+    </HashRouter>
   );
 }
 

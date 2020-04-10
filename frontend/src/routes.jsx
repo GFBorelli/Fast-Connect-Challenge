@@ -1,13 +1,15 @@
 import React from 'react'
-import { Route, Redirect, HashRouter } from 'react-router-dom'
+import { Route, Redirect, Switch } from 'react-router'
 
 import Sale from './sale/Sale'
 import About from './about/About'
 
 export default props => (
-    <HashRouter>
-        <Route path='/sales' component={Sale} />
-        <Route path='/about' component={About} />
-        <Redirect from='*' to='/sales' />
-    </HashRouter>
+    <div>
+        <Switch>
+            <Route exact path='/sales' component={Sale} />
+            <Route path='/about' component={About} />
+            <Redirect from='*' to='/sales' />
+        </Switch>
+    </div>
 )

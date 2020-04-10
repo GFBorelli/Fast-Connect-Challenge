@@ -8,9 +8,6 @@ import { Col, Form, Button } from 'react-bootstrap'
 import { FaSearch, FaTimes } from 'react-icons/fa'
 
 class SaleForm extends Component {
-    constructor(props) {
-        super(props)
-    }
 
     componentDidMount() {
         this.props.search()
