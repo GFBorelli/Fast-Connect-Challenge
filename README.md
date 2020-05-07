@@ -1,5 +1,5 @@
 <h1 align="center">
-	Fast Connect Challenge
+	Salles list
 </h1>
 
 <br>
